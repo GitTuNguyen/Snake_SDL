@@ -25,11 +25,6 @@ enum MoveType {
 };
 
 class Board {
-private:
-	std::vector<Coordinate> m_snakeBody;
-	Coordinate m_food;
-	int m_snakeLength;
-	GameResult m_gameResult;
 public:
 	Board();
 	void Reset();
@@ -41,4 +36,9 @@ public:
 	bool CheckValidFood(int i_X, int i_Y);
 	bool CheckEatFood(int i_X, int i_Y);
 	void CreateNewFood();
+private:
+	std::vector<Coordinate> m_snakeBody;
+	Coordinate m_food;
+	int m_snakeLength;
+	GameResult m_gameResult;
 };

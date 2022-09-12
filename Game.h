@@ -6,6 +6,7 @@ class Game {
 public:
 	Game();
 	void Update();
+	~Game();
 private:
 	Board* m_board;
 	Renderer* m_renderer;
