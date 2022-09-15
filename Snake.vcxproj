@@ -18,6 +18,19 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Board.cpp" />
+    <ClCompile Include="Source\Game.cpp" />
+    <ClCompile Include="Source\Renderer.cpp" />
+    <ClCompile Include="Source\Snake.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Board.h" />
+    <ClInclude Include="Source\Game.h" />
+    <ClInclude Include="Source\Parameter.h" />
+    <ClInclude Include="Source\Renderer.h" />
+    <ClInclude Include="Source\Snake.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
@@ -142,18 +155,6 @@
       <AdditionalDependencies>./Lib/SDL/SDL2main.lib;./Lib/SDL/SDL2.lib;./Lib/SDL_IMAGE/lib/SDL2_image.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-    <ClInclude Include="Board.h" />
-    <ClInclude Include="Game.h" />
-    <ClInclude Include="Parameter.h" />
-    <ClInclude Include="Renderer.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="Board.cpp" />
-    <ClCompile Include="Snake.cpp" />
-    <ClCompile Include="Game.cpp" />
-    <ClCompile Include="Renderer.cpp" />
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

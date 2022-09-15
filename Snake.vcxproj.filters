@@ -15,31 +15,34 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Board.h">
+    <ClCompile Include="Source\Board.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Game.h">
+    </ClCompile>
+    <ClCompile Include="Source\Game.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Renderer.h">
+    </ClCompile>
+    <ClCompile Include="Source\Renderer.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
-    <ClInclude Include="Parameter.h">
+    </ClCompile>
+    <ClCompile Include="Source\Snake.cpp">
       <Filter>Source Files</Filter>
-    </ClInclude>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Board.cpp">
+    <ClInclude Include="Source\Board.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Snake.cpp">
+    </ClInclude>
+    <ClInclude Include="Source\Game.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Game.cpp">
+    </ClInclude>
+    <ClInclude Include="Source\Parameter.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Renderer.cpp">
+    </ClInclude>
+    <ClInclude Include="Source\Renderer.h">
       <Filter>Source Files</Filter>
-    </ClCompile>
+    </ClInclude>
+    <ClInclude Include="Source\Snake.h">
+      <Filter>Source Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
